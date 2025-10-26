@@ -1,0 +1,19 @@
+docker --version
+docker pull ubuntu
+sudo docker images
+sudo docker run -it -d ubuntu
+sudo docker ps
+sudo docker ps -a
+sudo docker exec -it 6160239865ea  bash(ubuntu)
+ls
+mkdir ok
+exit
+sudo docker pull mysql
+sudo docker run --name soham17 -e MYSQL_PASSWORD=root -e MYSQL_DATABASE=orang -e MYSQL_ROOT_PASSWORD=root -d mysql
+sudo docker ps
+sudo docker exec -it 0603526d20dc  bash(sql)
+mysql -u root -p
+exit
+sudo docker stop
+sudo docker kill
+sudo docker rm
