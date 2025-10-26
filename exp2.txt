@@ -1,0 +1,58 @@
+sudo apt update
+sudo su
+apt install git
+git --version
+git  config --global user.name "sohamPai17"
+git  config --global user.email "23104008@apsit.edu.in"
+git  config --list
+mkdir workspace5
+cd workspace5/
+git init
+ls
+https://github.com/sohamPai17/hello29_test.git
+ls
+cd hello29_test/
+ls
+cat README.md
+touch hello5.py
+ls
+nano hello5.py
+git status(red)
+git add hello5.py
+git status(green)
+git commit -m "First Pyhton File"
+git status
+git push origin main
+git remote set-url origin https://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@github.com/sohamPai17/hello29_test(before create token)
+git push origin main(success)
+git log
+git show
+git diff second first(7 letters)
+*************************************************************************************
+
+
+
+
+EXP 3
+
+git branch feature
+git branch
+git checkout feature
+git branch
+echo "SOHAM PAI" >> hello5.py
+cat hello5.py
+git status
+git add hello5.py
+git status
+git commit -m "Added a line in feature branch"
+git log
+git checkout main
+git branch
+git merge feature
+cat hello5.py
+git push -u origin main
+git remote set-url origin https://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@github.com/sohamPai17/hello29_test
+git push -u origin main
+git branch
+git branch -d feature
+git branch
